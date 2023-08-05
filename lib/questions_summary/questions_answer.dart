@@ -15,12 +15,14 @@ class QuestionAnswer extends StatelessWidget {
             data['question'] as String,
             style: GoogleFonts.lato(color: Colors.white, fontSize: 16),
           ),
+          
           Text(
             data['user_answer'] as String,
             style: const TextStyle(
               color: Color.fromARGB(170, 255, 255, 255),
             ),
           ),
+        
           Text(
             data['correct_answer'] as String,
             style: const TextStyle(
